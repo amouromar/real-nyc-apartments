@@ -153,6 +153,10 @@ export default function PropertyModal({ property, onClose }: PropertyModalProps)
                   </p>
                   <button className="text-[--gold] mt-2">Read more</button>
                 </div>
+
+                <p>
+                  This property is listed for $500,000 &apos; negotiable.
+                </p>
               </div>
 
               {/* Sidebar */}

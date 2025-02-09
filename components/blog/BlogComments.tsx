@@ -6,10 +6,9 @@ import { type BlogComment } from '@/types/blog'
 
 interface BlogCommentsProps {
   comments: BlogComment[]
-  postId: number
 }
 
-export default function BlogComments({ comments: initialComments, postId }: BlogCommentsProps) {
+export default function BlogComments({ comments: initialComments }: BlogCommentsProps) {
   const [comments, setComments] = useState(initialComments)
   const [newComment, setNewComment] = useState('')
 

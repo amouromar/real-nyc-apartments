@@ -10,7 +10,7 @@ export default function AboutContent() {
               We're on a Mission to Change View of Real Estate Field
             </h2>
             <p className="text-gray-600 mb-6">
-              Our mission is to help people find their perfect homes while making the process as smooth and transparent as possible. With years of experience in the NYC real estate market, we understand the unique challenges and opportunities that come with finding a home in this vibrant city.
+              Our mission is to help people find their perfect homes while making the process as smooth and transparent as possible. With years of experience in the NYC real estate market, we understand the unique challenges and opportunities that come with finding a home in this vibrant city.&apos;
             </p>
             <div className="grid grid-cols-2 gap-6">
               <div className="p-6 bg-white rounded-lg shadow-sm">
