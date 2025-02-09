@@ -148,7 +148,7 @@ export default function PropertyModal({ property, onClose }: PropertyModalProps)
                 <div className="mb-8">
                   <h3 className="text-xl text-[--charcoal] font-semibold mb-4">Description</h3>
                   <p className="text-gray-600">
-                    As you enter this remarkable flex 2, you'll be immediately captivated by the grandeur of the open concept living
+                    As you enter this remarkable flex 2, you&aposll be immediately captivated by the grandeur of the open concept living
                     area that you can add a flex wall to make a bedroom. The expansive knee-to-ceiling windows...
                   </p>
                   <button className="text-[--gold] mt-2">Read more</button>

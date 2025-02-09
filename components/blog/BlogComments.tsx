@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { type BlogComment } from '@/types/blog'
 
-interface BlogCommentsProps {
+export interface BlogCommentsProps {
   comments: BlogComment[]
 }
 

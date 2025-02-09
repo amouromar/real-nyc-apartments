@@ -120,7 +120,7 @@ export default function BlogCard({ post, isExpanded, onToggle }: BlogCardProps) 
                 transition={{ duration: 0.3 }}
                 className="mt-6 pt-6 border-t"
               >
-                <BlogComments comments={post.comments} postId={post.id} />
+                <BlogComments comments={post.comments} />
               </motion.div>
             )}
           </AnimatePresence>

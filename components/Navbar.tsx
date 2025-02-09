@@ -12,12 +12,12 @@ export default function Navbar() {
       </div>
       
       <div className="flex items-center gap-8">
-        <a href="/" className="text-[--yinmn-blue] hover:text-[--yinmn-blue] transition-colors">Home</a>
-        <a href="/about" className="text-[--yinmn-blue] hover:text-[--yinmn-blue] transition-colors">About</a>
-        <a href="/properties" className="text-[--yinmn-blue] hover:text-[--yinmn-blue] transition-colors">Properties</a>
-        <a href="/instagram" className="text-[--yinmn-blue] hover:text-[--yinmn-blue] transition-colors">Instagram</a>
-        <a href="/blog" className="text-[--yinmn-blue] hover:text-[--yinmn-blue] transition-colors">Blog</a>
-        <a href="/contact" className="text-[--yinmn-blue] hover:text-[--yinmn-blue] transition-colors">Contact</a>
+        <Link href="/" className="text-[--yinmn-blue] hover:text-[--yinmn-blue] transition-colors">Home</Link>
+        <Link href="/about" className="text-[--yinmn-blue] hover:text-[--yinmn-blue] transition-colors">About</Link>
+        <Link href="/properties" className="text-[--yinmn-blue] hover:text-[--yinmn-blue] transition-colors">Properties</Link>
+        <Link href="/instagram" className="text-[--yinmn-blue] hover:text-[--yinmn-blue] transition-colors">Instagram</Link>
+        <Link href="/blog" className="text-[--yinmn-blue] hover:text-[--yinmn-blue] transition-colors">Blog</Link>
+        <Link href="/contact" className="text-[--yinmn-blue] hover:text-[--yinmn-blue] transition-colors">Contact</Link>
       </div>
     </nav>
   )
